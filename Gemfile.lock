@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/adfoster-r7/rex-text
+  revision: 67a084f7da3ec867e16729148890fa205933989a
+  branch: allow-opting-out-of-removing-whitespace
+  specs:
+    rex-text (0.2.56)
+
 PATH
   remote: .
   specs:
@@ -426,7 +433,6 @@ GEM
       rex-socket
       rex-text
     rex-struct2 (0.1.4)
-    rex-text (0.2.53)
     rex-zip (0.1.5)
       rex-text
     rexml (3.2.6)
@@ -562,6 +568,7 @@ DEPENDENCIES
   pry-byebug
   rake
   redcarpet
+  rex-text!
   rspec-rails
   rspec-rerun
   rubocop
@@ -572,4 +579,4 @@ DEPENDENCIES
   yard
 
 BUNDLED WITH
-   2.1.4
+   2.2.33

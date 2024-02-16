@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 #   spec.add_runtime_dependency '<name>', [<version requirements>]
 gemspec name: 'metasploit-framework'
 
+gem 'rex-text', git: 'https://github.com/adfoster-r7/rex-text', branch: 'allow-opting-out-of-removing-whitespace'
+
 # separate from test as simplecov is not run on travis-ci
 group :coverage do
   # code coverage for tests
